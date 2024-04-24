@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import ColorBox from "./ColorBox";
+import ColorBoxGrid from "./ColorBoxGrid";
 
 function App() {
   // Make an array of colors for the randomColor function
@@ -24,8 +25,7 @@ function App() {
   ];
   return (
     <>
-      {/* Give ColorBox the prop colors to pass down to the component */}
-      <ColorBox colors={colors} />
+      <ColorBoxGrid colors={colors} />
     </>
   );
 }
