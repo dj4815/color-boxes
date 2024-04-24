@@ -3,6 +3,7 @@ import "./App.css";
 import ColorBox from "./ColorBox";
 
 function App() {
+  // Make an array of colors for the randomColor function
   const colors = [
     "#f44336",
     "#e91e63",
@@ -23,6 +24,7 @@ function App() {
   ];
   return (
     <>
+      {/* Give ColorBox the prop colors to pass down to the component */}
       <ColorBox colors={colors} />
     </>
   );
