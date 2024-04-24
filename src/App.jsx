@@ -25,6 +25,7 @@ function App() {
   ];
   return (
     <>
+      {/* Render the grid of randomly colored boxes */}
       <ColorBoxGrid colors={colors} />
     </>
   );
