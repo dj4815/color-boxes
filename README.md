@@ -1,3 +1,3 @@
 **React useState practice**
 
-Make a div box that changes to a random color on click
+Make a grid of boxes that change to a random color on click
