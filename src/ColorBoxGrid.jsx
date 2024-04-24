@@ -1,6 +1,6 @@
 import ColorBox from "./ColorBox";
 import "./ColorBoxGrid.css";
-
+// Make ColorBoxGrid component
 export default function ColorBoxGrid({ colors }) {
   // Make empty boxes array
   const boxes = [];
