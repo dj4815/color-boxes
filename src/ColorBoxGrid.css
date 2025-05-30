@@ -1,6 +1,14 @@
 .ColorBoxGrid {
   display: flex;
+  flex-wrap: wrap;
   width: 800px;
   height: 800px;
-  flex-wrap: wrap;
+}
+
+/* Make full-screen on mobile devices */
+@media (max-width: 768px) {
+  .ColorBoxGrid {
+    width: 100vw;
+    height: 100vh;
+  }
 }
