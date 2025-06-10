@@ -1,4 +1,5 @@
 .ColorBox {
   width: 25%;
   height: 25%;
+  box-sizing: border-box;
 }
